@@ -9,7 +9,7 @@ const podcastSchema = yup
     artistName: yup.string().defined(),
     trackName: yup.string().defined(),
     trackViewUrl: yup.string().defined(),
-    artworkUrl60: yup.string().defined(),
+    artworkUrl100: yup.string().defined(),
   })
   .defined();
 
